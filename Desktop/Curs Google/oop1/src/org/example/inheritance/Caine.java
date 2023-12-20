@@ -1,6 +1,6 @@
 package org.example.inheritance;
 
-public class Caine extends Animal {
+public class Caine extends AnimalDomestic {
     public Caine(String nume) {
         super(nume);
     }

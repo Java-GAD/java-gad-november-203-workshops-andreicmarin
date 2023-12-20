@@ -1,9 +1,9 @@
 package org.example.inheritance;
 
-public class Animal {
+public class AnimalDomestic {
     String nume;
 
-    public Animal(String nume) {
+    public AnimalDomestic(String nume) {
         this.nume = nume;
     }
 

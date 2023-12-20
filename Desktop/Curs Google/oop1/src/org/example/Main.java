@@ -4,17 +4,20 @@ import org.example.abstraction.Cerc;
 import org.example.composition.Adresa;
 import org.example.composition.Persoana;
 import org.example.encapsulation.ContBancar;
-//import org.example.inheritance.Animal;
+//import org.example.inheritance.AnimalDomestic;
 import org.example.inheritance.Caine;
 import org.example.overloading.Calculator;
 import org.example.polymorphism.Dog;
 import org.example.polymorphism.Animal;
 import org.example.polymorphism.Cat;
 
+
+
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    static void scoateSunet(@org.jetbrains.annotations.NotNull Animal a) {
+    static void scoateSunet(Animal a) {
         a.scoateSunet();
     }
     public static void main(String[] args) {
